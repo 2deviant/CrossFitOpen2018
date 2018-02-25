@@ -1,0 +1,21 @@
+[
+    {"file":"0", "name": "Worldwide"},
+    {"file":"5", "name": "Canada West"},
+    {"file":"6", "name": "Central East"},
+    {"file":"9", "name": "Mid Atlantic"},
+    {"file":"10", "name": "North Central"},
+    {"file":"11", "name": "North East"},
+    {"file":"14", "name": "South Central"},
+    {"file":"15", "name": "South East"},
+    {"file":"17", "name": "South West"},
+    {"file":"18", "name": "Canada East"},
+    {"file":"19", "name": "West Coast"},
+    {"file":"20", "name": "Asia"},
+    {"file":"21", "name": "Australasia"},
+    {"file":"22", "name": "Europe North"},
+    {"file":"23", "name": "Europe Central"},
+    {"file":"24", "name": "Europe South"},
+    {"file":"25", "name": "Africa Middle East"},
+    {"file":"26", "name": "Central America"},
+    {"file":"27", "name": "South America"}
+]

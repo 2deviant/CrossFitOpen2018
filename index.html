@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+        <title>CrossFit Percentiles</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type='text/javascript' src='config.js'></script>
+        <script type='text/javascript' src='js.js'></script>
+        <link href='css.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <div id='selectors'>
+            <span id='selector_label'>
+                CrossFit Open
+            </span>
+            <select id='workout'>
+            </select>
+            <select id='demographic'>
+            </select>
+            <select id='region'>
+            </select>
+            <input type='radio' name='scaling' id='scaling_rx' value='rx' checked><label for='scaling_rx'>Rx</label>
+            <input type='radio' name='scaling' id='scaling_scaled' value='scaled'><label for='scaling_scaled'>Scaled</label>
+        </div>
+        <div id='plot'>
+        </div>
+        <div id='data'>
+            <div id='message'>
+            </div>
+        </div>
+    </body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-93163707-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</html>

@@ -1,0 +1,73 @@
+.loading {
+    font: bold 50pt verdana;
+    color: #888;
+    overflow:hidden;
+}
+
+.loading:before {
+    padding:1em;
+    content: "Loading...";
+    text-align: center;
+    width: calc(100% - 2em);
+    height: calc(100% - 2em);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #eee;
+    opacity: .75;
+}
+
+#plot {
+    min-width: 768px;
+    width: 80%;
+    height: 512px;
+    font-weight:bold;
+    margin:0 auto;
+}
+
+#selectors, select {
+    font: 16pt tahoma;
+}
+
+#selectors {
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background: #3d405b;
+    padding :1em;
+    color: #f4f1de;
+}
+
+select {
+    border:0;
+    background: #f4f1de;
+    color: #3d405b;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+
+}
+
+#message {
+    width: 75%;
+    margin: 1em auto;
+    background: #3d405b;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    text-align: justify;
+    padding: 2em;
+    font: 11pt helvetica;
+    color: #f4f1de;
+}
+
+#message:before {
+    content: "Only athletes who have entered their scores are analyzed. "
+}
+
+body {
+    background: #f4f1de;
+    color: #f4f1de;
+    margin: 0;
+}
