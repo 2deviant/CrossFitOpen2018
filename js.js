@@ -83,6 +83,9 @@ function set_dropdown(id, data, error) {
             var option = document.createElement('option');
             option.innerHTML = data[i]['name'];
             option.value = data[i]['file'];
+            if ('auxiliary' in data[i]) {
+                option.setAttribute('auxiliary', data[i]['auxiliary']);
+            }
             dropdown.appendChild(option);
         }
     } else {
