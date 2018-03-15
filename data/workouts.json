@@ -63,7 +63,7 @@
                 ]
         },
         "x-axis-label": "Weight Cleaned (lb)",
-        "message": "Jagged tops of [mostly] mens distributions indicate athletes max out metally before maxing out physically." 
+        "message": "Jagged tops of some distributions indicate athletes try wights they're unsure of.  Sometimes they lift it, sometimes they don't."
     },
     {
         "name": "18.2a (in kg)",
@@ -79,6 +79,33 @@
             "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180]
         },
         "x-axis-label": "Weight Cleaned (kg)",
-        "message": "Jagged tops of [mostly] mens distributions indicate athletes max out metally before maxing out physically." 
+        "message": "Jagged tops of some distributions indicate athletes try wights they're unsure of.  Sometimes they lift it, sometimes they don't."
+    },
+    {
+        "name": "18.3",
+        "file": "18.3",
+        "axes-flip": true,
+        "percentile": {
+            "y-axis-label": "Percentile"
+        },
+        "histogram": {
+            "y-axis-label": "Athlete Count"
+        },
+        "x-axis-ticks": {
+            "values": [
+                        120, 232,
+                        352, 464,
+                        584, 696,
+                        816, 928
+                    ],
+            "ticks": [
+                        "OHS", "RMU",
+                        "DBS", "BMU",
+                        "OHS", "RMU",
+                        "DBS", "BMU"
+                    ]
+        },
+        "x-axis-label": "Reps",
+        "message": "" 
     }
 ]
