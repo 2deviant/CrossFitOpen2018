@@ -196,6 +196,12 @@ function plot(data) {
     if('x-axis-ticks' in labels[workout]) {
         x_axis['tickvals'] = labels[workout]['x-axis-ticks']['values'];
         x_axis['ticktext'] = labels[workout]['x-axis-ticks']['ticks'];
+
+        // variable bar widths
+        if('bar-width' in labels[workout]['x-axis-ticks']) {
+            histogram['width'] =  labels[workout]['x-axis-ticks']['bar-width'];
+        }
+
     }
 
     var flipped_axes = {
