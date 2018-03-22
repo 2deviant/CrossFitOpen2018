@@ -107,5 +107,32 @@
         },
         "x-axis-label": "Reps",
         "message": "" 
+    },
+    {
+        "name": "18.4",
+        "file": "18.4",
+        "axes-flip": false,
+        "percentile": {
+            "y-axis-label": "Percentile"
+        },
+        "histogram": {
+            "y-axis-label": "Athlete Count"
+        },
+        "x-axis-ticks": {
+            "values": [
+                    240, 270, 300, 330, 360, 390, 420, 450, 480, 510,
+                    540,
+                    550, 559, 569, 584, 594, 615, 624, 633, 648, 663, 684
+                ],
+            "ticks": [
+                    "4:00", "4:30", "5:00", "5:30", "6:00", "6:30", "7:00", "7:30", "8:00", "8:30",
+                    "9:00",
+                    "155 reps","146 reps","136 reps","121 reps","111 reps",
+                    "Diane","81 reps","72 reps","57 reps","42 reps","21 reps"
+            ]
+        },
+        "x-axis-hover-function": "function(x) { return 'Score: ' + (x <= 540 ? Math.floor(x/60) + ':' + (x%60 < 10 ? '0' : '' ) + x%60 : 165 - (x - 540) + ' reps'); }",
+        "x-axis-label": "Time or Reps",
+        "message": ""
     }
 ]
