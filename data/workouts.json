@@ -63,7 +63,7 @@
                 ]
         },
         "x-axis-label": "Weight Cleaned (lb)",
-        "message": "Jagged tops of some distributions indicate athletes try wights they're unsure of.  Sometimes they lift it, sometimes they don't."
+        "message": "Jagged tops of some distributions indicate athletes try weights they're unsure of.  Sometimes they lift it, sometimes they don't."
     },
     {
         "name": "18.2a (in kg)",
